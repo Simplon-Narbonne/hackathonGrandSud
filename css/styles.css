@@ -4,45 +4,58 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'ubuntu', sans-serif;
   background-image: url(../img/fond.jpeg);
   background-repeat: no-repeat;
-  -webkit-background-size:cover;
-  background-size:cover;
+  -webkit-background-size: cover;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
-
+.col-centered{
+  float: none;
+  margin: auto;
+}
+.txt-col{
+color: #DF3163;
+}
 #header {
   position: fixed;
   top: 0;
   width: 100%;
   height: auto;
   background-color: #fff;
-  border-bottom: 1px solid #DF3163;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  z-index: 100;
 }
-#logos{
-text-align: center;
+
+#logos {
+  text-align: center;
 }
+
 #logos img {
   height: 50px;
   margin: 10px;
 }
-#inscription{
+
+#inscription {
   text-align: right;
   padding: 20px;
 }
-#inscription button{
-  background-color:#DF3163;
-  height: 40px;
 
-    padding: 10px;
+#inscription button {
+  background-color: #DF3163;
+  height: 40px;
+  padding: 10px;
   border: inherit;
 }
-#inscription a{
-font-weight: bold;
-color:#fff;
+
+#inscription a {
+  font-weight: bold;
+  color: #fff;
 }
+
 #menu {
   text-align: center;
   -webkit-transition: all 0.3s ease-out;
@@ -66,7 +79,7 @@ color:#fff;
   text-decoration: none;
   text-transform: uppercase;
   background-color: #fff;
-  color: #999;
+  color: #333;
   padding: 10px;
   font-size: 1em;
   -webkit-transition: all 0.3s ease-out;
@@ -77,29 +90,34 @@ color:#fff;
 }
 
 #menu ul li a:hover {
-  border-bottom: 5px solid ;
+  border-bottom: 5px solid #DF3163;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-#slider{
-  height:700px;
+
+#intro {
+  height: 700px;
   text-align: center;
   color: #fff;
 }
-#slider img{
-width: 100%;
-}
-#titre{
 
-padding-top: 200px;
-background-color: rgba(0, 0, 0, 0.37);
+#intro img {
+  width: 100%;
 }
-#titre h1, #titre h2{
+
+#titre {
+  text-align: center;
+  margin: 150px auto;
+  padding: 50px;
+  background-color: rgba(223, 49, 99,0.8);
+}
+
+#titre h1, #titre h2 {
   font-weight: bold;
-  font-size: 4em;
+  font-size: 5em;
   text-shadow: 0 1px 0 #ccc,
               0 2px 0 #c9c9c9,
               0 3px 0 #bbb,
@@ -113,7 +131,37 @@ background-color: rgba(0, 0, 0, 0.37);
               0 10px 10px rgba(0,0,0,.2),
               0 20px 20px rgba(0,0,0,.15);
 }
-.box{
-  height: 600px;
+
+#titre h2 {
+  font-size: 3em;
+}
+
+#titre h3 {
+  font-size: 2.5em;
+  font-family: 'Dancing Script', cursive;
+}
+
+#quoi {
+  height: auto;
+  padding:100px 0;
+  text-align: center;
   background-color: #fff;
+}
+#quoi img{
+padding:  5px;
+float: right;
+}
+#quoi p{
+  text-align: left;
+padding: 20px 20px 0 20px;
+font-size: 1.5em;
+color: #999;
+}
+#quoi hr{
+  width: 100%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+#participer{
+  margin-top: 200px;
 }
