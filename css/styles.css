@@ -19,7 +19,7 @@ body {
   width: 100%;
   height: auto;
   background-color: #fff;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #DF3163;
 }
 #logos{
 text-align: center;
@@ -93,6 +93,7 @@ color:#fff;
 width: 100%;
 }
 #titre{
+
 padding-top: 200px;
 background-color: rgba(0, 0, 0, 0.37);
 }
