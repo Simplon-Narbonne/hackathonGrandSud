@@ -39,6 +39,7 @@ body {
 
 #navigation {
   background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 .navbar-header {
