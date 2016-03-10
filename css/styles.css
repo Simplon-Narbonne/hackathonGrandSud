@@ -162,7 +162,7 @@ button {
   font-family: 'Dancing Script', cursive;
 }
 
-#quoi {
+#quoi, #participer{
   height: auto;
   padding: 100px 0;
   text-align: center;
@@ -174,19 +174,15 @@ button {
   float: right;
 }
 
-#quoi p {
+#quoi p, #participer p {
   text-align: left;
   padding: 20px 20px 0 20px;
   font-size: 1.5em;
   color: #999;
 }
 
-#quoi hr {
+#quoi hr, #participer hr {
   width: 100%;
   margin: auto;
   padding-bottom: 20px;
-}
-
-#participer {
-  margin-top: 200px;
 }
