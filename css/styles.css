@@ -12,13 +12,20 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-.col-centered{
+
+.icon-bar {
+  background-color: #222;
+}
+
+.col-centered {
   float: none;
   margin: auto;
 }
-.txt-col{
-color: #DF3163;
+
+.txt-col {
+  color: #DF3163;
 }
+
 #header {
   position: fixed;
   top: 0;
@@ -30,52 +37,51 @@ color: #DF3163;
   z-index: 100;
 }
 
-#logos {
+#navigation {
+  background-color: #fff;
+}
+
+.navbar-header {
+  width: 100%;
   text-align: center;
 }
 
+#logos {
+  text-align: left;
+  float: left;
+  padding: 10px;
+}
+
 #logos img {
-  height: 50px;
+  height: 60px;
   margin: 10px;
 }
 
-#inscription {
-  text-align: right;
-  padding: 20px;
-}
-
-#inscription button {
+button {
   background-color: #DF3163;
   height: 40px;
   padding: 10px;
+  margin-top: 20px;
   border: inherit;
-}
-
-#inscription a {
   font-weight: bold;
   color: #fff;
 }
 
-#menu {
-  text-align: center;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+#bs-example-navbar-collapse-1 {
+  float: right;
 }
 
-#menu ul {
+#bs-example-navbar-collapse-1  ul {
   list-style-type: none;
-  margin: auto;
+  margin: 30px auto;
 }
 
-#menu li {
+#bs-example-navbar-collapse-1 li {
   display: inline;
   line-height: 80px;
 }
 
-#menu ul li a {
+#bs-example-navbar-collapse-1 ul li a {
   text-decoration: none;
   text-transform: uppercase;
   background-color: #fff;
@@ -89,8 +95,8 @@ color: #DF3163;
   transition: all 0.3s ease-out;
 }
 
-#menu ul li a:hover {
-  border-bottom: 5px solid #DF3163;
+#bs-example-navbar-collapse-1  ul li a:hover {
+  color: #DF3163;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -100,6 +106,7 @@ color: #DF3163;
 
 #intro {
   height: 700px;
+  width: 100%;
   text-align: center;
   color: #fff;
 }
@@ -108,14 +115,24 @@ color: #DF3163;
   width: 100%;
 }
 
-#titre {
-  text-align: center;
-  margin: 150px auto;
-  padding: 50px;
-  background-color: rgba(223, 49, 99,0.8);
+#slogan {
+  height: 500px;
+  background-color: rgb(223, 49, 99);
 }
 
-#titre h1, #titre h2 {
+#date {
+  height: 500px;
+  padding: 155px;
+}
+
+.titre {
+  text-align: center;
+  margin: 100px auto;
+  padding: 50px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.titre h1, #titre h2 {
   font-weight: bold;
   font-size: 5em;
   text-shadow: 0 1px 0 #ccc,
@@ -132,36 +149,44 @@ color: #DF3163;
               0 20px 20px rgba(0,0,0,.15);
 }
 
-#titre h2 {
+.titre h2 {
   font-size: 3em;
+  color: #fff500;
+  padding: 20px;
+  border-radius: 20%;
+  background-color: rgba(0,0,0,.15);
 }
 
-#titre h3 {
+.titre h3 {
   font-size: 2.5em;
   font-family: 'Dancing Script', cursive;
 }
 
 #quoi {
   height: auto;
-  padding:100px 0;
+  padding: 100px 0;
   text-align: center;
   background-color: #fff;
 }
-#quoi img{
-padding:  5px;
-float: right;
+
+#quoi img {
+  padding: 5px;
+  float: right;
 }
-#quoi p{
+
+#quoi p {
   text-align: left;
-padding: 20px 20px 0 20px;
-font-size: 1.5em;
-color: #999;
+  padding: 20px 20px 0 20px;
+  font-size: 1.5em;
+  color: #999;
 }
-#quoi hr{
+
+#quoi hr {
   width: 100%;
   margin: auto;
   padding-bottom: 20px;
 }
-#participer{
+
+#participer {
   margin-top: 200px;
 }
