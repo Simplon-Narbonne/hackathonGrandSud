@@ -53,11 +53,6 @@ body {
   padding: 10px;
 }
 
-#logos img {
-  height: 60px;
-  margin: 10px;
-}
-
 button {
   background-color: #DF3163;
   height: 40px;
@@ -162,7 +157,16 @@ button {
   font-size: 2.5em;
   font-family: 'Dancing Script', cursive;
 }
-
+#encart{
+  width: 100%;
+  text-align: center;
+  background-color: #DF3163;
+}
+#encart span{
+  color: #fff;
+  font-size: 1.8em;
+  padding: 10px;
+}
 #quoi, #participer{
   height: auto;
   padding: 100px 0;
